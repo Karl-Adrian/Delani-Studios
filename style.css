@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  background: url(images/h_img.jpg);
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+  padding-top: 200px;
+}
+
+.about {
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+  background: url(images/s_image.jpg);
+}
