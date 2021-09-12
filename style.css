@@ -1,4 +1,8 @@
-h1 {
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.welcome {
   text-align: center;
   background: url(images/h_img.jpg);
   background-size: cover;
@@ -14,4 +18,11 @@ h1 {
 .services {
   text-align: center;
   background: url(images/s_image.jpg);
+  background-size: cover;
+  height: 400px;
+  padding-top: 200px;
+}
+
+.logo {
+  color: white;
 }
