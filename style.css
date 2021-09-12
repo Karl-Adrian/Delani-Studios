@@ -4,7 +4,7 @@
 }
 .welcome {
   text-align: center;
-  background: url(images/h_img.jpg);
+  background: url(images/stairs.jpg);
   background-size: cover;
   height: 700px;
   background-position: center;
@@ -17,12 +17,20 @@
 
 .services {
   text-align: center;
-  background: url(images/s_image.jpg);
+  background: url(images/laptop.jpg);
   background-size: cover;
   height: 400px;
   padding-top: 200px;
 }
 
 .logo {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
   color: white;
 }
