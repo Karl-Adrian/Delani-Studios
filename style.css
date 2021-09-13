@@ -120,3 +120,34 @@ h4 {
   width: 100%;
   height: auto;
 }
+
+.contact {
+  background-image: url(images/c_image.jpg);
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container > h3 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contact-frm {
+  margin-bottom: 20px;
+}
+
+.contact-frm > input {
+  width: 350px;
+  height: 30px;
+}
