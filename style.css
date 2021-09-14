@@ -197,6 +197,14 @@ h4 {
 .footer-txt > p {
   font-size: 14px;
 }
-.hide {
+
+/*WHAT WE DO*/
+#design2 {
+  display: none;
+}
+#development2 {
+  display: none;
+}
+#project2 {
   display: none;
 }
