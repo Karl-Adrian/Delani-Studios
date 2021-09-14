@@ -1,14 +1,15 @@
 $(document).ready(function () {
+  // toggle between para and picha //
   $("#design").click(function () {
-    $("#design1").toggle();
     $("#design2").toggle();
+    $("#design1").toggle();
   });
   $("#development").click(function () {
-    $("#dev1").toggle();
-    $("#dev2").toggle();
+    $("#development2").toggle();
+    $("#development1").toggle();
   });
-  $("#product").click(function () {
-    $("#product1").toggle();
-    $("#product2").toggle();
+  $("#projectManagement").click(function () {
+    $("#project2").toggle();
+    $("#project1").toggle();
   });
 });
