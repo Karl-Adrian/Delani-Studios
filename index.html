@@ -28,6 +28,9 @@
       <h1>WELCOME</h1>
       <h1>TO DELANI STUDIOS</h1>
       <h4>Amazing people are making amazing designs in a fun environment</h4>
+      <div class="mouseclick">
+        <img src="images/mouse_click.png" />
+      </div>
     </div>
 
     <div class="about">
@@ -64,21 +67,60 @@
       </p>
     </div>
 
-    <div class="what">
-      <div class="what-container">
-        <h3>WHAT WE DO</h3>
-        <div class="what-images">
-          <div>
-            <img class="what-image" src="images/design_icon.png" alt="" />
-            <span class="image-text">DESIGN.</span>
+    <div class="container">
+      <div class="row">
+        <!-- Design section -->
+        <div class="col-4 mt-1" id="design">
+          <div id="design1">
+            <img class="img-fluid" src="images/design_icon.png" />
+            <h6>DESIGN</h6>
           </div>
-          <div>
-            <img class="what-image" src="images/dev_icon.png" alt="" />
-            <span class="image-text">DEVELOPMENT.</span>
+          <div id="design2">
+            <h6>DESIGN</h6>
+            <p>
+              Our design practice offers a full range of services including
+              brand strategy<br />interaction and visual design and user
+              experience testing.<br />Throughout your project, our designers
+              create and implement visiual design and workflows, solicit user
+              feedback and<br />work with you to make sure what gets built is
+              what is needed.
+            </p>
           </div>
-          <div>
-            <img class="what-image" src="images/product_icon.png" alt="" />
-            <span class="image-text">PRODUCT MANAGEMENT.</span>
+        </div>
+        <!-- Design section -->
+
+        <!-- Development section -->
+        <div class="col-4 mt-2" id="development">
+          <div id="development1">
+            <img class="img-fluid" src="images/dev_icon.png" />
+            <h6>DEVELOPMENT</h6>
+          </div>
+          <div id="development2">
+            <h6>DEVELOPMENT</h6>
+            <p>
+              All engineers are fluent in the lates enterprise, mobile and web
+              development technologies.<br />They collaborate with your team to
+              write, and improve code on a daily basis, using proven<br />practices
+              such as test-driven development and pair programming.
+            </p>
+          </div>
+        </div>
+        <!-- Development section -->
+
+        <!-- Project management section -->
+        <div class="col-4" id="projectManagement">
+          <div id="project1">
+            <img class="img-fluid" src="images/product_icon.png" />
+            <h6>PROJECT MANAGEMENT</h6>
+          </div>
+          <div id="project2">
+            <h6>PROJECT MANAGEMENT</h6>
+            <p>
+              Planning and development is iterative. Because we are constantly
+              coding and testing, the products we build are always ready to go
+              live.<br />This iterative process allows for changes as business
+              requirements evolve.
+            </p>
           </div>
         </div>
       </div>
@@ -167,6 +209,12 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
       crossorigin="anonymous"
     ></script>
     <script src="app.js"></script>
